@@ -15,7 +15,7 @@ srcnuget: src/SQLite.cs src/SQLiteAsync.cs sqlite-net-ecp.nuspec
 	nuget pack sqlite-net-ecp.nuspec
 
 pclnuget: src/SQLite.cs src/SQLiteAsync.cs
-	nuget restore SQLite.sln
-	'/Applications/Xamarin Studio.app/Contents/MacOS/mdtool' build '-c:Release|iPhone' SQLite.sln -p:SQLite-net-ecp
+	nuget restore SQLiteECP.sln
+	'/Applications/Xamarin Studio.app/Contents/MacOS/mdtool' build '-c:Release|iPhone' SQLiteECP.sln -p:SQLite-net-ecp
 	nuget pack sqlite-net-pcl-ecp.nuspec -o .\
 
