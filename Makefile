@@ -11,11 +11,11 @@ tests/bin/Debug/SQLite.Tests.dll: tests/SQLite.Tests.csproj src/SQLite.cs src/SQ
 
 nuget: srcnuget pclnuget
 
-srcnuget: src/SQLite.cs src/SQLiteAsync.cs sqlite-net.nuspec
-	nuget pack sqlite-net.nuspec
+srcnuget: src/SQLite.cs src/SQLiteAsync.cs sqlite-net-ecp.nuspec
+	nuget pack sqlite-net-ecp.nuspec
 
 pclnuget: src/SQLite.cs src/SQLiteAsync.cs
 	nuget restore SQLite.sln
-	'/Applications/Xamarin Studio.app/Contents/MacOS/mdtool' build '-c:Release|iPhone' SQLite.sln -p:SQLite-net
-	nuget pack sqlite-net-pcl.nuspec -o .\
+	'/Applications/Xamarin Studio.app/Contents/MacOS/mdtool' build '-c:Release|iPhone' SQLite.sln -p:SQLite-net-ecp
+	nuget pack sqlite-net-pcl-ecp.nuspec -o .\
 
