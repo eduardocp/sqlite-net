@@ -28,6 +28,6 @@
 	<files>
 		<file src="nuget/SQLite-net-ecp/bin/Release/SQLite-net-ecp.dll" />
 		<file src="nuget/SQLite-net-ecp/bin/Release/SQLite-net-ecp.dll.mdb" />
-		<file src="nuget/SQLite-net-ecp/bin/Release/SQLite-netec-.xml" />
+		<file src="nuget/SQLite-net-ecp/bin/Release/SQLite-net-ecp.xml" />
 	</files>
 </package>
