@@ -3,7 +3,7 @@
   <metadata>
     <version>1.2.1</version>
     <authors>Frank Krueger, Eduardo Carísio</authors>
-    <owners>Frank Krueger,Tim Heuer</owners>
+    <owners>Frank Krueger,Tim Heuer, Eduardo Carísio</owners>
     <licenseUrl>https://raw.githubusercontent.com/praeclarum/sqlite-net/master/LICENSE.md</licenseUrl>
     <projectUrl>https://github.com/eduardocp/sqlite-net</projectUrl>
     <iconUrl>https://raw.githubusercontent.com/eduardocp/sqlite-net/master/nuget/Logo-low.png</iconUrl>
