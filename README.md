@@ -19,13 +19,13 @@ SQLite-net was designed as a quick and convenient database layer. Its design fol
   
 ## Nuget Installation
 
-Install [SQLite-net PCL](https://www.nuget.org/packages/sqlite-net-pcl) from nuget.
+Install [SQLite-net PCL ECP](https://www.nuget.org/packages/sqlite-net-pcl-ecp) from nuget.
 
 **Important:** You will need to add the nuget package to **both** your *PCL project* and your *platform-dependent project*.
 
 ## Source Installation
 
-SQLite-net is all contained in 1 file (I know, so cool right?) and is easy to add to your project. Just add [SQLite.cs](https://github.com/praeclarum/sqlite-net/blob/master/src/SQLite.cs) to your project, and you're ready to start creating tables. 
+SQLite-net is all contained in 1 file (I know, so cool right?) and is easy to add to your project. Just add [SQLite.cs](https://github.com/eduardocp/sqlite-net/blob/master/src/SQLite.cs) to your project, and you're ready to start creating tables. 
 
 ## Please Contribute!
 
